@@ -29,6 +29,8 @@ nav > ul > li{
   top: 30px;
   left: 10px;
   display: none;
+  padding: 10px;
+  box-shadow: 0 0 3px lightgrey;
 }
 .active{
   display: grid;
@@ -39,4 +41,11 @@ a{
 }
 a:hover{
   color: darkblue;
+}
+.nav-btn{
+  padding: 10px;
+  background-color: #d42456;
+  color: white;
+  border-radius: 30px;
+  border-color: #d42456;
 }
