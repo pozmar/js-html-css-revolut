@@ -3,5 +3,9 @@ $(document).ready(function(){
   $(".has-dropdown").hover(function(){
     $(".has-dropdown").children().removeClass("active");
     $(this).children().addClass("active");
+
+  })
+  $(document).click(function(){
+    $(".has-dropdown").find(".active").removeClass("active");
   })
 })
