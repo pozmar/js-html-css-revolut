@@ -5,6 +5,7 @@ $(document).ready(function(){
     $(this).children().addClass("active");
 
   })
+  //al click sulla pagina rimuovo la classe active in modo da chiudere la tenda del menu dropdown
   $(document).click(function(){
     $(".has-dropdown").find(".active").removeClass("active");
   })
