@@ -33,3 +33,10 @@ nav > ul > li{
 .active{
   display: grid;
 }
+a{
+  text-decoration: none;
+  color: lightgrey;
+}
+a:hover{
+  color: darkblue;
+}
