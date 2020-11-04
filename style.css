@@ -17,6 +17,9 @@ nav > ul > li{
   display: inline-block;
   margin-right: 10px;
 }
+.menu{
+  display: inline-block;
+}
 .has-dropdown{
   position: relative;
 }
